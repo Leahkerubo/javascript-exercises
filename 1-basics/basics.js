@@ -282,7 +282,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-
+            const falsyNumber1 = 0;
+            const falsyNumber2 = NaN;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
@@ -325,7 +326,7 @@ describe("basics", function() {
                 secondProperty: 2
             };
             let propertyName = "firstProperty";
-
+            
             // We're freezing the object here which means that you can't change it anymore.
             // This is just a safety measurement so that you can't take any shortcuts :)
             Object.freeze(object);
@@ -336,7 +337,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back

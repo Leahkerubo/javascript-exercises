@@ -48,7 +48,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(appendItem("a")).to.equal(1);
@@ -80,7 +80,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function removeFirstItem() {
+                return array.shift();
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(removeFirstItem()).to.equal("a");

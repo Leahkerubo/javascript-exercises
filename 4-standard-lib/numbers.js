@@ -35,7 +35,7 @@ describe("numbers", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
             // You will also need to do an additional check here.
-
+            
             ////////////////////////////////////////////////////////////////////////
 
             expect(isNotANumber(0)).to.equal(false);
@@ -55,7 +55,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function roundNumber(number){
+                return Math.round(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(roundNumber(0)).to.equal(0);

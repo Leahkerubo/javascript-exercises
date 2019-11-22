@@ -122,7 +122,7 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(cut(0)).to.equal(
@@ -150,7 +150,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function transformToCapitalLetters(string){
+                return text.toUpperCase(string);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(transformToCapitalLetters()).to.equal(

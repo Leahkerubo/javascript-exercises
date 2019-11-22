@@ -114,7 +114,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             addItemsAtFirstPosition("a");
@@ -131,7 +131,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             overwriteItemsAtFirstPosition("a");
@@ -148,7 +148,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function backwards(){
+                return array.reverse();
+            }
             ////////////////////////////////////////////////////////////////////
 
             backwards();

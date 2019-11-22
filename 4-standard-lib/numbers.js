@@ -103,7 +103,7 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-           
+            
             ////////////////////////////////////////////////////////////////////////
 
             expect(getSmallestNumber([-1])).to.equal(-1);
@@ -117,7 +117,7 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////////
 
             expect(getBiggestNumber([1])).to.equal(1);
@@ -131,7 +131,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function getRandomNumberBetween0And1(number) {
+                return Math.random(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             const previousNumbers = [];

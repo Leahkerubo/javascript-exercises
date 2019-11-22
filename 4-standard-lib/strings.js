@@ -14,7 +14,7 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(findIndexOf("fox")).to.equal(16);

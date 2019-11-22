@@ -12,16 +12,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-            Number.isFiniteNumber(0);
-            Number.isFiniteNumber(1);
-            Number.isFiniteNumber(0xff);
-            Number.isFiniteNumber("0");
-            Number.isFiniteNumber("1");
-            Number.isFiniteNumber("NaN");
-            Number.isFiniteNumber("");
-            Number.isFiniteNumber(null);
-            Number.isFiniteNumber(NaN);
-            Number.isFiniteNumber(Infinity);
+            function isFiniteNumber(number) {
+                return Number.isFinite(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(isFiniteNumber(0)).to.equal(true);

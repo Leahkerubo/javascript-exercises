@@ -359,6 +359,7 @@ describe("functions", function() {
                 // ✏️ ADD CODE HERE ✏️
                 // Stop the function - exit,
                 return;
+                //2nd way of breaking the loop:function breakTheLoop(){};this is shadowing
                 ////////////////////////////////////////////////////////////////////
 
                 breakTheLoop(); // Recursive call
@@ -374,7 +375,13 @@ describe("functions", function() {
             // Can you implement a function 'myFunction' that returns a function
             // which returns the number of arguments of 'myFunction' when called?
             // ✏️ ADD CODE HERE ✏️
+            function myFunction() {
+                const length = arguments.length;
 
+                return function () {
+                    return length;
+                }
+            }
             ////////////////////////////////////////////////////////////////////
 
             // Look at that strange code: myFunction()().

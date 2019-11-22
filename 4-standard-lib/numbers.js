@@ -71,7 +71,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function roundNumber(number){
+                return Math.floor(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(roundNumber(0)).to.equal(0);
@@ -85,7 +87,7 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+           
             ////////////////////////////////////////////////////////////////////////
 
             expect(roundNumber(0)).to.equal(0);
@@ -99,7 +101,7 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+           
             ////////////////////////////////////////////////////////////////////////
 
             expect(getSmallestNumber([-1])).to.equal(-1);

@@ -106,7 +106,7 @@ describe("numbers", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
             function getSmallestNumber(number) {
-                return Math.min(number);
+                return Math.min(...number);
             }
             ////////////////////////////////////////////////////////////////////////
 

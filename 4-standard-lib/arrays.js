@@ -48,7 +48,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-            
+            function appendItem(item){
+                return array.push(item);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(appendItem("a")).to.equal(1);
@@ -132,7 +134,7 @@ describe("arrays", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
             
-            ////////////////////////////////////////////////////////////////////
+            /////////////f///////////////////////////////////////////////////////
 
             overwriteItemsAtFirstPosition("a");
             overwriteItemsAtFirstPosition("b");
@@ -513,7 +515,7 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             const empty = stringToArray("");

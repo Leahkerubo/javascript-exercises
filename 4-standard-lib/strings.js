@@ -122,7 +122,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-            
+            function cut(number,n) {
+                return text.slice(number,n);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(cut(0)).to.equal(

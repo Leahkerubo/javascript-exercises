@@ -66,8 +66,8 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-            function appendMultipleItems(item1,item2,item3) {
-                return array.push(item1,item2,item3);
+            function appendMultipleItems(...args) {
+                return array.push(...args)
             }
             ////////////////////////////////////////////////////////////////////
 

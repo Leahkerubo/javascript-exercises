@@ -388,7 +388,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function oneNumberIsBelowLimit(limit) {
+                return numbers.some((number) => number < limit);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(oneNumberIsBelowLimit(5)).to.equal(true);
